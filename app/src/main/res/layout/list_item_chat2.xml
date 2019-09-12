@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/tools"
+        android:id="@+id/card_view"
+        android:layout_gravity="center_vertical"
+        android:layout_width="73dp"
+        android:layout_height="65dp"
+        card_view:cardBackgroundColor="@android:color/holo_blue_dark"
+        card_view:cardCornerRadius="4dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="2dp" app:ignore="NamespaceTypo"
+        android:layout_centerVertical="true">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/currencyCountry"
+              android:layout_marginTop="19dp"
+              android:textAlignment="center"
+              android:textSize="13sp"
+              android:textColor="@android:color/white"
+              android:textStyle="bold"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/currencyValue"
+              android:layout_marginTop="49dp"
+              android:textAlignment="center"
+              android:textSize="11sp"
+              android:textStyle="bold"
+              android:textColor="@android:color/white"
+
+    />
+
+    </android.support.v7.widget.CardView>
